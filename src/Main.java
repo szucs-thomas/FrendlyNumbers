@@ -30,7 +30,7 @@ public class Main {
         int number2 = sc.nextInt();
         System.out.println();
 
-        if (dividerAmount(number1) == number2 & dividerAmount(number2) == number1) {
+        if (dividerAmount(number1) == number2 && dividerAmount(number2) == number1) {
             System.out.println("This is two number: " + number1 + ", " + number2 + " Freindly numbers.");
         } else {
             System.out.println("This is two number: " + number1 + ", " + number2 + " Not Frendly numbers.");
